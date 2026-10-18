@@ -1,0 +1,75 @@
+{
+  "id": "SampleReel",
+  "title": "Motion design, written as code",
+  "goal": "Show that a code-built reel can look as branded and deliberate as a hand-animated one.",
+  "audience": "Designers and creators on Instagram who have seen AI motion reels and want the workflow.",
+  "format": "reel-9x16",
+  "transition": {
+    "type": "push",
+    "seconds": 0.4
+  },
+  "voiceover": null,
+  "scenes": [
+    {
+      "id": "hook",
+      "component": "HookScene",
+      "seconds": 3.6,
+      "onScreenText": [
+        "Claude × Remotion",
+        "Motion design, written as code"
+      ],
+      "beats": [
+        "0.0s kicker slides in from left, dot pulses",
+        "0.2s headline words rise from mask, 3f stagger",
+        "~0.9s 'code' gets the accent marker wipe",
+        "hold to read until push"
+      ]
+    },
+    {
+      "id": "stat",
+      "component": "StatScene",
+      "seconds": 3.9,
+      "onScreenText": [
+        "This reel",
+        "4 scenes",
+        "built from one component library"
+      ],
+      "beats": [
+        "0.0s label slides in",
+        "0.15s counter counts 0 → 4 over 1.2s, pops on land",
+        "0.9s caption rises in muted color"
+      ]
+    },
+    {
+      "id": "system",
+      "component": "ListScene",
+      "seconds": 4.2,
+      "onScreenText": [
+        "The system",
+        "Brand tokens",
+        "Storyboard first",
+        "Still-frame review"
+      ],
+      "beats": [
+        "0.0s title rises",
+        "0.6s item 1 enters, then one item every 0.45s",
+        "accent index numbers appear with each row"
+      ]
+    },
+    {
+      "id": "cta",
+      "component": "CTAScene",
+      "seconds": 3.2,
+      "onScreenText": [
+        "Same brand, every video",
+        "@yourhandle",
+        "Follow"
+      ],
+      "beats": [
+        "0.0s headline rises centered, 'every' gets marker",
+        "0.9s handle + Follow button pop in",
+        "hold to end"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "motion-design",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brand-consistent motion graphics built with Claude Code + Remotion",
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "check": "node scripts/check-storyboard.mjs",
+    "review": "node scripts/review-stills.mjs",
+    "render": "remotion render",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src && tsc --noEmit",
+    "format": "prettier --write src scripts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/bundler": "4.0.536",
+    "@remotion/captions": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "@remotion/renderer": "4.0.536",
+    "@remotion/transitions": "4.0.536",
+    "@remotion/zod-types": "4.0.536",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.536",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
